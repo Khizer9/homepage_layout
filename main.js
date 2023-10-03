@@ -79,3 +79,5 @@ function drags(dragElement, resizeElement, container) {
         resizeElement.classList.remove('resizable');
     });
 }
+
+
