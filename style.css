@@ -1,0 +1,55 @@
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50% !important; /* Vertical center */
+    left: 0;
+    right: 0;
+    /* transform: translateY(-50%);  */
+    color: #fff;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.caption-heading {
+    color: black;
+}
+
+.cart-icon {
+    width: 30px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add margin for spacing */
+}
+
+.image-container {
+    position: relative;
+}
+
+.price-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    opacity: 0; /* Initially, set opacity to 0 */
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover {
+    opacity: 0.7; /* Reduce the opacity of the image when hovering */
+}
+
+.image-container:hover .price-overlay {
+    opacity: 1; /* When hovering, set opacity to 1 for the price overlay */
+}
+
+.card-btn{
+    background-color: transparent !important;
+    color: black !important;
+    border-radius: 50% !important;
+    padding: 8px 10px !important;
+}
