@@ -81,3 +81,21 @@ function drags(dragElement, resizeElement, container) {
 }
 
 
+// Add this JavaScript code to your scripts.js file
+document.addEventListener('DOMContentLoaded', function () {
+    const accordionLinks = document.querySelectorAll('.list-unstyled a');
+
+    accordionLinks.forEach((link) => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const listItem = link.parentElement;
+            const sublist = listItem.querySelector('ul');
+
+            if (sublist.style.display === 'block') {
+                sublist.style.display = 'none';
+            } else {
+                sublist.style.display = 'block';
+            }
+        });
+    });
+});

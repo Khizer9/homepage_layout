@@ -24,38 +24,58 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid" style="padding: 10px 50px">
-            <a class="navbar-brand" href="#">Websiteeeeee</a>
+        <div class="container-fluid" style="padding: 10px 15px; text-align: center;"> <!-- Center-align the content -->
+            <!-- Navbar Brand -->
+            <img src="./assets/CARMELLA_Black_2 (1).svg" alt="user Icon"> 
+            
+            <!-- Toggler Button for Mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+    
+            <!-- Navbar Links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-top: 6px;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Best Seller</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Skin Care</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Body & Hand</a>
                     </li>
-                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hair</a>
+                    </li>
+                   
                 </ul>
-                <!-- Replace search input with cart icon -->
-                <img src="./assets/shopping-bag.png" alt="Cart Icon" class="cart-icon"> 
-                <img src="./assets/user.png" alt="user Icon" class="cart-icon"> 
+    
+                <!-- Navbar Icons -->
+                <div class="navbar-icon">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">AED | د.إ</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">About</a>
+                        </li>
+                    </ul>
+                    <!-- Replace search input with cart icon -->
+                    <img src="./assets/magnifying-glass.png" alt="user Icon" class="cart-icon"> 
+                    <img src="./assets/user.png" alt="user Icon" class="cart-icon"> 
+                    <img src="./assets/shopping-bag.png" alt="Cart Icon" class="cart-icon"> 
+                </div>
             </div>
         </div>
     </nav>
+    
+    
+    
+    
     
 
     <!-- Hero Section -->
@@ -67,25 +87,13 @@
                 Your browser does not support the video tag.
             </video>
             <div class="carousel-caption d-none d-md-block">
-              <h5 class="caption-heading">First slide label</h5>
-              <p class="caption-heading">Some representative placeholder content for the first slide.</p>
-              <button type="button" class="btn btn-outline-primary" style="padding: 12px 20px;">Click here</button>
+              <h5 class="caption-heading">99.5% NATURAL. 100% YOU.</h5>
+              <h1 class="caption-heading">Glow from Within, Naturally</h1>
+              <button type="button" class="btn btn-outline-primary" style="padding: 12px 50px; color: white; border-color: white; border-radius: 0px !important;" >
+                Shop Now
+            </button>
             </div>
           </div>
-          <!-- <div class="carousel-item">
-            <img src="./assets/3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="caption-heading">Second slide label</h5>
-              <p class="caption-heading">Some representative placeholder content for the second slide.</p>
-            </div>
-          </div> -->
-          <!-- <div class="carousel-item">
-            <img src="./assets/5 (1).jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="caption-heading">Third slide label</h5>
-              <p class="caption-heading">Some representative placeholder content for the third slide.</p>
-            </div>
-          </div> -->
         </div>
       </div>
 
@@ -93,17 +101,22 @@
     <section class="pt-5">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h3 class="mb-3">Carousel cards title </h3>
+                <div class="col-6">
+                    <h3 class="mb-5">BEST SELLERS</h3>
+                </div>
+                <div class="col-6 text-right">
+                    <button type="button" class="btn btn-outline-primary black-btn card-arrow" style="padding: 12px 50px; color: black; border-color: black; border-radius: 0px !important;" >
+                        VIEW ALL
+                    </button>
                 </div>
                 <div class="col-12">
                     <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
     
-                        <div class="carousel-inner" style="height: 370px;">
-                            <div class="carousel-item active">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active h-100">
                                 <div class="row">
     
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                         <div class="product-grid">
                                             <div class="product-image">
                                                 <a href="#" class="image">
@@ -122,7 +135,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
                                         <div class="product-grid">
                                             <div class="product-image">
                                                 <a href="#" class="image">
@@ -141,7 +154,27 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-3">
+                                        <div class="product-grid">
+                                            <div class="product-image">
+                                                <a href="#" class="image">
+                                                    <img src="./assets/3.jpg">
+                                                </a>
+                                                <span class="product-discount-label">-23%</span>
+                                                <ul class="product-links">
+                                                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-random"></i></a></li>
+                                                </ul>
+                                                <a href="" class="add-to-cart">Add to Cart</a>
+                                            </div>
+                                            <div class="product-content">
+                                                <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+                                                <div class="price">$53.55 <span>$68.88</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
                                         <div class="product-grid">
                                             <div class="product-image">
                                                 <a href="#" class="image">
@@ -165,111 +198,94 @@
                                 </div>
                                 
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item h-100" >
                                 <div class="row">
     
-                                    <div class="col-md-4">
-                                        <div class="card">
-                                            <div class="image-container">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
-                                            <div class="price-overlay">
-                                                $19.99
+                                    <div class="col-md-3">
+                                        <div class="product-grid">
+                                            <div class="product-image">
+                                                <a href="#" class="image">
+                                                    <img src="./assets/5 (1).jpg">
+                                                </a>
+                                                <ul class="product-links">
+                                                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-random"></i></a></li>
+                                                </ul>
+                                                <a href="" class="add-to-cart">Add to Cart</a>
                                             </div>
-                                        </div>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    
-                                            </div>
-    
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card">
-                                            <div class="image-container">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
-                                            <div class="price-overlay">
-                                                $19.99
-                                            </div>
-                                        </div>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    
+                                            <div class="product-content">
+                                                <h3 class="title"><a href="#">Men's Jacket</a></h3>
+                                                <div class="price">$75.55</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <div class="card">
-                                            <div class="image-container">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
-                                            <div class="price-overlay">
-                                                $19.99
+                                    <div class="col-md-3">
+                                        <div class="product-grid">
+                                            <div class="product-image">
+                                                <a href="#" class="image">
+                                                    <img src="./assets/4-1.jpg">
+                                                </a>
+                                                <ul class="product-links">
+                                                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-random"></i></a></li>
+                                                </ul>
+                                                <a href="" class="add-to-cart">Add to Cart</a>
                                             </div>
-                                        </div>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    
+                                            <div class="product-content">
+                                                <h3 class="title"><a href="#">Men's Jacket</a></h3>
+                                                <div class="price">$75.55</div>
                                             </div>
                                         </div>
                                     </div>
-    
+                                    <div class="col-md-3">
+                                        <div class="product-grid">
+                                            <div class="product-image">
+                                                <a href="#" class="image">
+                                                    <img src="./assets/3.jpg">
+                                                </a>
+                                                <span class="product-discount-label">-23%</span>
+                                                <ul class="product-links">
+                                                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-random"></i></a></li>
+                                                </ul>
+                                                <a href="" class="add-to-cart">Add to Cart</a>
+                                            </div>
+                                            <div class="product-content">
+                                                <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+                                                <div class="price">$53.55 <span>$68.88</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="product-grid">
+                                            <div class="product-image">
+                                                <a href="#" class="image">
+                                                    <img src="./assets/3.jpg">
+                                                </a>
+                                                <span class="product-discount-label">-23%</span>
+                                                <ul class="product-links">
+                                                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-random"></i></a></li>
+                                                </ul>
+                                                <a href="" class="add-to-cart">Add to Cart</a>
+                                            </div>
+                                            <div class="product-content">
+                                                <h3 class="title"><a href="#">Women's Blouse Top</a></h3>
+                                                <div class="price">$53.55 <span>$68.88</span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div class="row">
-    
-                                    <div class="col-md-4">
-                                        <div class="card">
-                                            <div class="image-container">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                                            <div class="price-overlay">
-                                                $19.99
-                                            </div>
-                                        </div>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    
-                                            </div>
-    
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card">
-                                            <div class="image-container">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
-                                            <div class="price-overlay">
-                                                $19.99
-                                            </div>
-                                        </div>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card">
-                                            <div class="image-container">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
-                                            <div class="price-overlay">
-                                                $19.99
-                                            </div>
-                                        </div>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                
                             
                         </div>
-                        <div class="col-12 mt-4 mb-5 text-right">
+                        <div class="col-12 mt-5 mb-5 text-right card-arrow">
                             <a class="card-btn btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                                 <i class="fa fa-arrow-left"></i>
                             </a>
@@ -291,44 +307,35 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/3.jpg" class="d-block w-100" alt="Image 1">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 class="caption-heading">Second slide label</h5>
-                                <p class="caption-heading">Some representative placeholder content for the second slide.</p>
-                                <button type="button" class="btn btn-outline-primary" style="padding: 12px 20px;">Click here</button>
-                              </div>
+                            <img src="./assets/image.webp" class="d-block w-100" alt="Image 1">
                         </div>
-                        <div class="carousel-item">
-                            <img src="./assets/3.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5 class="caption-heading">Second slide label</h5>
-                              <p class="caption-heading">Some representative placeholder content for the second slide.</p>
-                              <button type="button" class="btn btn-outline-primary" style="padding: 12px 20px;">Click here</button>
-                            </div>
-                          </div>
-                        <div class="carousel-item">
-                            <img src="./assets/3.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                              <h5 class="caption-heading">Second slide label</h5>
-                              <p class="caption-heading">Some representative placeholder content for the second slide.</p>
-                              <button type="button" class="btn btn-outline-primary" style="padding: 12px 20px;">Click here</button>
-                            </div>
-                        </div>
+    
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
                 </div>
             </div>
-            <div class="col-md-3">
-                <img src="./assets/5 (1).jpg" alt="External Image" style="object-fit: cover; height: 100%;" class="img-thumbnail">
+            <div class="col-md-3" style="position: relative;">
+                <img src="./assets/pink.avif" alt="External Image" style="object-fit: cover; height: 100%;" class="img-thumbnail">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: rgb(192, 192, 192);">
+                    <p>RISE AND<br><span>SHINE</span></p>
+                    <h1>MORNING ROUTINE ESSENTIALS</h1>
+                    <button type="button" class="btn btn-outline-primary black-btn mt-4" style="padding: 12px 50px; color: black; border-color: black; border-radius: 0px !important;">SHOP NOW</button>
+                </div>
             </div>
+            
         </div>
+
+
+
+      <marquee width="100%" direction="left" height="70px" style="background-color: pink;"> 
+
+        <div class="logos">
+            <img class="marquee-space" src="./assets/Navigate-150x136.webp"></img>
+            <img class="marquee-space" src="./assets/Navigate-150x136.webp"></img>
+            <img class="marquee-space" src="./assets/Navigate-150x136.webp"></img>
+            <img class="marquee-space" src="./assets/Navigate-150x136.webp"></img>
+            <img class="marquee-space" src="./assets/Navigate-150x136.webp"></img>
+          </div>
+        </marquee>
 
     <!--Image comparision  -->
     <div class="comparison-slider-wrapper">
@@ -344,30 +351,76 @@
         </div>
 
 
-    <!-- Logo carousel  -->
-    <div class="container h-100">
-        <div class="row align-items-center h-100">
-          <div class="container rounded">
-            <div class="slider">
-              <div class="logos">
-                <img src="./assets/Navigate-150x136.webp"></img>
-                <img src="./assets/Navigate-150x136.webp"></img>
-                <img src="./assets/Navigate-150x136.webp"></img>
-                <img src="./assets/Navigate-150x136.webp"></img>
-                <img src="./assets/Navigate-150x136.webp"></img>
-              </div>
-              <div class="logos">
-                <img src="./assets/Navigate-150x136.webp"></img>
-                <img src="./assets/Navigate-150x136.webp"></img>
-                <img src="./assets/Navigate-150x136.webp"></img>
-                <img src="./assets/Navigate-150x136.webp"></img>
-                <img src="./assets/Navigate-150x136.webp"></img>
-              </div>
+        <!-- Footer -->
+ 
+        <footer class="bg-light text-black py-4">
+            <div class="container">
+                <div class="row">
+                    <!-- Section 1: Links -->
+                    <div class="col-md-2">
+                        <h5 class="mb-4">COMPANY</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Section 2: Links -->
+                    <div class="col-md-2">
+                        <h5 class="mb-4">GET HELP</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Shipping Info</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Section 3: Links -->
+                    <div class="col-md-2">
+                        <h5 class="mb-4">ACCOUNT</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Sign Up</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Section 4: Social Links -->
+                    <div class="col-md-2">
+                        <h5 class="mb-4">CONNECT</h5>
+                        <ul class="list-unstyled social-icons">
+                            <img src="./assets/twitter.png" alt="Twitter Icon" class="footer-icon"> 
+                            <img src="./assets/instagram.png" alt="Instagram Icon" class="footer-icon"> 
+                            <img src="./assets/facebook.png" alt="Facebook Icon" class="footer-icon"> 
+                        </ul>
+                    </div>
+
+                    
+    
+                    <!-- Section 5: Newsletter -->
+                    <div class="col-md-4">
+                        <img src="./assets/CARMELLA_Black_2 (1).svg" alt="Carmella Logo" class="mb-4"> 
+                        <p>Discover the science behind naturally effective ingredients for transformative results</p>
+                        <h5 class="mb-4">Subscribe to Newsletter</h5>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-dark" type="button">Subscribe</button>
+                            </div>
+                        </div>
+                        <p style="text-decoration: underline; color: black;">Change shipping country: AED | د.إ</p>
+                    </div>
+                </div>
+                
+                <p class="mt-">© 2023 - All rights reserved. Powered by Digital Graphiks</p>
             </div>
-          </div>
-        </div>
-      
-      </div>
+        </footer>
+    
+        
+        
+        
+    
 
       
     

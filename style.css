@@ -17,13 +17,45 @@
 }
 
 .caption-heading {
-    color: black;
+    color: white;
 }
 
 .cart-icon {
     width: 30px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Add margin for spacing */
+    margin-right: 25px; /* Add margin for spacing */
+}
+
+.footer-icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+div.col-md-2 ul.list-unstyled li a{
+    color: black !important;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.black-btn:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+
+.navbar-icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 12px;
 }
 
 .image-container {
@@ -59,11 +91,56 @@
 
 .row {
     --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+}
+
+.marquee-space {
+    margin-right: 50px;
 }
 
 
 
 @media (max-width: 767px) {
+    .col-md-2,
+    .col-md-4 {
+        flex: 1;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .col-md-2 {
+        order: 1;
+    }
+    .col-md-4 {
+        order: 2;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-md-3 {
+        width: 100%;
+        padding: 0;
+    }
+    .img-thumbnail {
+        width: 100%;
+        height: auto !important;
+    }
+    .col-md-3 div {
+        position: static;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .black-btn {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .card-arrow{
+        display: none;
+    }
     .carousel-item {
         height: 70%; 
     }
@@ -75,6 +152,9 @@
 
 /* Mobile view: Display only one card per slide */
 @media (max-width: 767px) {
+    .navbar-icon{
+        display: none;
+    }
   .carousel-inner .row {
       display: flex;
       flex-wrap: nowrap;
@@ -476,8 +556,8 @@
     background: #333;
 }
 .product-grid .add-to-cart{
-    background: #A5BA8D;
-    color: #fff;
+    background:white;
+    color: black;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -488,8 +568,10 @@
     bottom: -60px;
     transition: all 0.3s ease 0s;
 }
+
+
 .product-grid:hover .add-to-cart{ bottom: 0; }
-.product-grid .add-to-cart:hover{ text-shadow: 4px 4px rgba(0,0,0,0.2); }
+.product-grid .add-to-cart:hover{ text-shadow: 4px 4px rgba(0,0,0,0.2); text-decoration: none; }
 .product-grid .product-content{
     background: #fff;
     padding: 15px;
