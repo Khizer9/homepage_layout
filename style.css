@@ -19,7 +19,9 @@
 .caption-heading {
     color: white;
 }
-
+.btn-outline-dark:hover{
+    background-color: transparent !important;
+}
 .cart-icon {
     width: 30px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
