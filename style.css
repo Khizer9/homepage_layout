@@ -89,6 +89,7 @@ div.col-md-2 ul.list-unstyled li a{
     color: black !important;
     border-radius: 50% !important;
     padding: 8px 10px !important;
+    border-color: transparent !important;
 }
 
 .row {
