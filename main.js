@@ -99,3 +99,15 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Get references to the carousel and its "Next" button
+    const carousel = document.getElementById("myCarousel");
+    const nextButton = carousel.querySelector(".carousel-control-next");
+
+    // Add a click event listener to the "Next" button
+    nextButton.addEventListener("click", function () {
+        // Simulate clicking the "Next" button to move to the next item
+        carousel.querySelector("[data-slide='next']").click();
+    });
+});
