@@ -12,7 +12,7 @@ body{
 
 .carousel-caption {
     position: absolute;
-    top: 50% !important; /* Vertical center */
+    top: 30% !important; /* Vertical center */
     left: 0;
     right: 0;
     /* transform: translateY(-50%);  */
@@ -89,6 +89,18 @@ div.col-md-2 ul.list-unstyled li+li{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: #111111 !important;
+}
+
+.btn-outline-primary {
+    font-size: 1.2rem !important;
+    line-height: 1.5rem !important;
+    letter-spacing: 0.2rem !important;
+    text-transform: uppercase;
+    font-family: 'Space Mono', monospace;
+    padding: 1.6rem 4rem !important;
+    color: white !important; 
+    border-color: white !important; 
+    border-radius: 0px !important;
 }
 .btn-outline-primary:hover {
     background-color: white !important;
@@ -660,7 +672,7 @@ div.col-md-2 ul.list-unstyled li+li{
 .product-grid .add-to-cart:hover{  text-decoration: none; }
 .product-grid .product-content{
     background: #fff;
-    padding: 15px;
+    padding: 15px 5px;
 }
 .product-grid .title{
     font-family: 'poppins', sans-serif;

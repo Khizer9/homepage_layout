@@ -111,3 +111,4 @@ document.addEventListener("DOMContentLoaded", function () {
         carousel.querySelector("[data-slide='next']").click();
     });
 });
+
